@@ -1,0 +1,6 @@
+git add -> staged 상태로 변경
+staged 상태가 되면, git이 해당 파일을 추적하여 변화를 감지한다.
+
+staged 파일을 commit하게 되면 해당 파일들은 하나의 커밋으로 묶여 unmodified 상태가 된다.
+이 때, 이 unmodified 파일을 수정하게 되며 modified 상태가 되는데, 
+이렇게 되면 git add로 다시 staged 상태로 만들어 commit을 반복해야 한다.
